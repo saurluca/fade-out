@@ -1,0 +1,3 @@
+# Fade Out - Break Timer Dependencies
+# PyGObject for GTK+ integration on Wayland/Hyprland
+PyGObject>=3.42.0

@@ -1,0 +1,13 @@
+[Unit]
+Description=Fade Out Break Timer
+After=graphical-session.target
+
+[Service]
+Type=simple
+# Update the path below to point to your fade_out.py location
+ExecStart=/path/to/fade-out/fade_out.py -i 30
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
